@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -39,7 +40,7 @@
     </a>
   </header>
 
-  <section class="hero" id="home">
+  <section class="hero" id="home" data-aos="fade-up">
     <div class="hero-content">
       <p class="tagline">
         FRESHLY BREWED EVERY DAY
@@ -100,7 +101,7 @@
 
   </section>
 
-  <section class="menu" id="menu">
+  <section class="menu" id="menu" data-aos="fade-up">
     <div class="section-title">
         <p>OUR MENU</p>
 
@@ -114,7 +115,7 @@
     <div class="menu-grid">
       <div class="coffee-card">
         <div class="coffee-image latte">
-          ☕
+          <img src="https://i.pinimg.com/736x/b2/a9/f6/b2a9f654bb07b9e833a135770db56635.jpg">
         </div>
 
         <div class="coffee-info">
@@ -139,7 +140,7 @@
 
       <div class="coffee-card">
         <div class="coffee-image cappuccino">
-          ☕
+          <img src="https://i.pinimg.com/1200x/81/72/60/81726082c6d0780cb89ef2d45a02684d.jpg">
         </div>
 
         <div class="coffee-info">
@@ -164,7 +165,7 @@
 
       <div class="coffee-card">
         <div class="coffee-image americano">
-          ☕
+          <img src="https://i.pinimg.com/736x/c1/ad/82/c1ad82830c8e0ac4d76bf25c721053b1.jpg">
         </div>
 
         <div class="coffee-info">
@@ -188,7 +189,7 @@
 
       <div class="coffee-card">
         <div class="coffee-image mocha">
-          ☕
+          <img src="https://i.pinimg.com/1200x/55/a6/5b/55a65bbc99524df0504afa8a01fa5924.jpg">
         </div>
 
         <div class="coffee-info">
@@ -213,7 +214,7 @@
   </section>
 
 
-  <section class="about" id="about">
+  <section class="about" id="about" data-aos="fade-up">
     <div class="about-image">
       <div class="about-cup">
         ☕
@@ -428,5 +429,9 @@
     </div>
   </footer>
 <script src = "script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
