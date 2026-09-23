@@ -286,6 +286,12 @@ button, input, textarea, select {
   margin  :auto;
 }
 
+.coffee-card img {
+  border-radius : 7px;
+  height : 110px;
+  width :110px;
+}
+
 .coffee-card {
   display : flex;
   gap : 25px;
@@ -452,7 +458,13 @@ button, input, textarea, select {
 
 .contact {
   padding : 100px 8%;
-  background : #fffaf4;
+  background: linear-gradient(
+    to bottom,
+    #ead8c5 0%,
+    #f7f0e8 30%,
+    #fbf8f4 65%,
+    #ffffff 100%
+  );
 }
 
 .contact-wrapper {
