@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Landing Page</title>
+  <title>Lohan&Bean</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
@@ -14,7 +14,7 @@
 <body>
   <header class="navbar">
     <div class="logo">
-      Niau<span>&</span>Bean
+      Lohan<span>&</span>Bean
     </div>
 
     <nav>
@@ -24,6 +24,10 @@
 
     <a href="#menu">
        Menu
+    </a>
+
+    <a href="#map">
+       Map
     </a>
 
     <a href="#about">
@@ -214,6 +218,21 @@
   </section>
 
 
+  <section class="map" id="map" data-aos="fade-up">
+    <div class="container">
+      <h2>Our Map</h2>
+      <input type ="text" id="search" placeholder="Enter Location">
+      <br>
+      <button id="button" onclick="showMap()">Search</button>
+
+      <iframe id="mapFrame"></iframe>
+
+      <p>📍 Riau Street No. 12</p>
+    </div>
+
+  </section>
+
+
   <section class="about" id="about" data-aos="fade-up">
     <div class="about-image">
       <div class="about-cup">
@@ -295,14 +314,27 @@
 
         <div class="contact-info">
           <p>
-            📍 Jalan Kopi No. 12
+            📍 Riau Street No. 12
           </p>
           <p>
             🕐 Mon - Sun: 08:00 - 22:00
           </p>
           <p>
-            📞 +62 812 3456 7890
+            📞 +62 123 4567 8901
           </p>
+
+          <div class="share">
+            <a class="x" href="https://x.com/Buantayy">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a class="ig" href="https://www.instagram.com/jsen.h01/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="wa" href="">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+
       </div>
     </div>
 
@@ -413,10 +445,10 @@
 
   <footer>
     <div class="footer-logo">
-      Niau<span>&</span>Bean
+      Lohan<span>&</span>Bean
     </div>
 
-    <p>© 2026 Niau & Bean. All rights reserved.</p>
+    <p>© 2026 Lohan & Bean.</p>
 
     <div class="socials">
       <span>
