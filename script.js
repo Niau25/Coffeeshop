@@ -1,3 +1,24 @@
+const input = document.getElementById("search");
+const button = document.getElementById("button");
+const mapFrame = document.getElementById("mapFrame");
+
+button.addEventListener("click",showMap);
+
+function showMap() {
+  const location = input.value;
+
+  if(location.trim() !=="") {
+    mapFrame.src = "https://maps.google.com/maps?q=" + encodeURIComponent(location) + "&output=embed";
+  }
+
+  else {
+    alert("Please enter a location");
+  }
+}
+
+
+
+
 emailjs.init({
   publicKey: "hoCU3iVioKdUCKabM"
 });
