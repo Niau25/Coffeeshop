@@ -24,6 +24,10 @@ button, input, textarea, select {
   font-family : inherit;
 }
 
+
+/* ---------- NAVBAR ---------- */
+
+
 .navbar {
   height : 75px;
   display : flex;
@@ -61,6 +65,7 @@ button, input, textarea, select {
 }
 
 .navbar nav a:hover {
+  transform : translateY(-3px);
   color : #a56b42;
 }
 
@@ -268,10 +273,26 @@ button, input, textarea, select {
   background : #fffaf4;
 }
 
+.menu-bg {
+  position : relative;
+  width : 100%;
+  opacity : 0.18;
+}
+
 .section-title {
-  max-width : 700px;
-  margin : 0 auto 60px;
-  text-align : center;
+  max-width: 700px;
+  margin: 0 auto 60px;
+  text-align: center;
+  position: relative;
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("menubg.jfif") center/cover;
+  opacity: 0.2;
+  z-index: -1;
 }
 
 .section-title h2 {
@@ -439,11 +460,6 @@ iframe {
   height : 370px;
   border : none;
   border-radius : 10px;
-}
-
-.container p {
-  font-size : 25px;
-  font-weight : bold;
 }
 
 
