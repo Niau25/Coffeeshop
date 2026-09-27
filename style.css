@@ -306,6 +306,31 @@ button, input, textarea, select {
   font-style : italic;
 }
 
+.drinks {
+  text-align : center;
+  justify-content : center;
+  font-size : 70px;
+  font-family : Georgia, serif;
+}
+
+.foods {
+  text-align : center;
+  justify-content : center;
+  font-size : 70px;
+  font-family : Georgia, serif;
+  margin-top : 70px;
+  margin-bottom : 60px;
+}
+
+.merchandises {
+  text-align : center;
+  justify-content : center;
+  font-size : 70px;
+  font-family : Georgia, serif;
+  margin-top : 70px;
+  margin-bottom : 60px; 
+}
+
 .menu-grid {
   display : grid;
   grid-template-columns : repeat(2, 1fr);
@@ -345,19 +370,19 @@ button, input, textarea, select {
   font-size : 55px;
 }
 
-.latte {
+.kopi1 {
   background : #ddc0a6;
 }
 
-.cappuccino {
+.kopi2 {
   background : #c9a989;
 }
 
-.americano {
+.kopi3 {
   background : #634a36;
 }
 
-.mocha {
+.kopi4 {
   background : #8d6347;
 }
 
